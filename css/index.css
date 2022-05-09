@@ -1,0 +1,16 @@
+.main-head {
+    font-size: 60px;
+    text-align: center;
+    text-decoration: underline;     
+}
+
+.header {
+    background-image: url('/images/Shaders1.png');
+    background-size: 1920px;
+}
+
+.headertxt2 {
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+}
