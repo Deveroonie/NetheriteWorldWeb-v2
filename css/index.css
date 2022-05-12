@@ -12,12 +12,13 @@
 
 .headertxt2 {
     text-align: center;
-    color: gray;
+    color: #ee6055;
     font-weight: bold;
+    font-size: 35px;
 }
 
 .copyip {
-    background-color: #f70fe3; 
+    background-color: #f5429b; 
     border: none;
     color: white;
     padding: 15px 32px;
@@ -25,4 +26,15 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    position: fixed;
+    left: 45%;
   }
+
+.mcOnline {
+    text-align: center;
+    color: goldenrod;
+}
+
+.ip {
+    text-align: center;
+}
