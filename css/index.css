@@ -42,3 +42,17 @@
 body {
     margin-top: 30px;
 }
+
+.whyjoin_header {
+    color: purple;
+    text-align: center;
+}
+
+.whyjoin_desc {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.whyjoin_readmore {
+    color: #c44fd6;
+}

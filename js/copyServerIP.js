@@ -14,4 +14,6 @@ Swal.fire({
       rgba(0,0,123,0.4)
     `
   })
+
+  document.getElementById("copyip").innerHTML = "Copied! <i class=\"fas fa-clipboard\"></i>"
 }
