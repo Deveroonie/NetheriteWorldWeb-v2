@@ -26,15 +26,19 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    position: fixed;
-    left: 45%;
+    margin: 0 auto;
+    display: block;
   }
 
 .mcOnline {
     text-align: center;
-    color: goldenrod;
+    color: #222422;
 }
 
 .ip {
     text-align: center;
+}
+
+body {
+    margin-top: 30px;
 }
