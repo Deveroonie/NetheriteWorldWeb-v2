@@ -1,3 +1,7 @@
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
 .main-head {
     font-size: 60px;
     text-align: center;
@@ -12,7 +16,7 @@
 
 .headertxt2 {
     text-align: center;
-    color: #ee6055;
+    color: #cc71eb;
     font-weight: bold;
     font-size: 35px;
 }
