@@ -1,0 +1,64 @@
+.gamemodes_survival {
+    background-image: url('../images/Shaders2.png');
+}
+.gamemodes_survival_head {
+    text-align: center;
+    color: green;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.gamemodes_survival_text {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+.gamemodes_towny {
+    background-image: url('../images/Shaders3.png');
+}
+.gamemodes_towny_head {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    color: green;
+}
+
+.gamemodes_towny_text {
+    color: palevioletred;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+.gamemodes_skyblock {
+    background-image: url('../images/SKYBLOCK.png');
+}
+
+.gamemodes_skyblock_head {
+    font-family: 'Kdam Thmor Pro';
+    color: green;
+    text-align: center;
+}
+
+.gamemodes_skyblock_text {
+    color: palevioletred;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+.gamemodes_skyblock_text_row {
+    color: white;
+}
+
+.gamemodes_skygrid {
+   background-image: url('../images/SKYGRID.png');
+}
+
+.gamemodes_skygrid_head {
+    font-family: 'Kdam Thmor Pro';
+    color: green;
+    text-align: center;
+}
+
+.gamemodes_skygrid_text {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
