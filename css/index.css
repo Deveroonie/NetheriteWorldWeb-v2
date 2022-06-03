@@ -60,3 +60,9 @@ body {
 .whyjoin_readmore {
     color: #c44fd6;
 }
+
+/* footer */
+
+.copyright {
+    padding-left: 30px;
+}
