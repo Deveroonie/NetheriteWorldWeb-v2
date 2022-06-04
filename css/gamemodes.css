@@ -10,6 +10,7 @@
 .gamemodes_survival_text {
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
+    margin: 0px;
 }
 
 .gamemodes_towny {
@@ -25,6 +26,7 @@
     color: palevioletred;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
+    margin: 0px;
 }
 
 .gamemodes_skyblock {
@@ -41,6 +43,7 @@
     color: palevioletred;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
+    margin: 0px;
 }
 
 .gamemodes_skyblock_text_row {
@@ -61,4 +64,5 @@
     color: white;
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
+    margin: 0px;
 }
