@@ -63,6 +63,11 @@ body {
 
 /* footer */
 
+.footer {
+  background-color: #222422;
+}
+
 .copyright {
     padding-left: 30px;
+    color: white;
 }
