@@ -21,12 +21,14 @@
         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
         <script src="js/getServerOnlinePlayerCount.js"></script>
         <script src="/js/copyServerIP.js"></script>
+        <script src="/js/getAnnouncements.js"></script>
         <script>
             const ip2 = "play.netherite.world"
 
 function lf() {
     getMembers()
     getPlayers()
+    getAnnouncements()
     //copy()
 }
         </script>
@@ -42,7 +44,7 @@ function lf() {
           </div>
           <br>
           <div class="header">
-       
+             <div id="announcement" class="announcement alert"></div>
             <h1 class="main-head"><span style="color: #f5429b;">Netherite</span> <span style="color: #4a0752;">World</span></h1>
             <br><br><br><br>
             <h4 class="headertxt2">Minecraft Network.</p>
@@ -100,7 +102,10 @@ function lf() {
     </div>
     <div class="footer">
         <footer>
-            <p class="copyright">&copy 2022 Deveroonie</p>
+            <p class="copyright">&copy 2022 Deveroonie</p> 
+            <div class="links">
+                <a href="https://discord.netherite.world"><i class="fab fa-discord"></i></a><a href="https://youtube.netherite.world"><i class="fab fa-youtube"></i></a>
+            </div>
         </footer>
     </div>
     </body>
