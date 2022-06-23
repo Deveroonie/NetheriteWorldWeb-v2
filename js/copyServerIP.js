@@ -1,7 +1,5 @@
 function copy() {
     navigator.clipboard.writeText(ip2);
-
-
 Swal.fire({
     title: 'IP copied.',
     text: 'The server IP has been copied!',
@@ -14,6 +12,5 @@ Swal.fire({
       rgba(0,0,123,0.4)
     `
   })
-
   document.getElementById("copyip").innerHTML = "Copied! <i class=\"fas fa-clipboard\"></i>"
 }
