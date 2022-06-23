@@ -1,0 +1,23 @@
+.headtxt {
+    font-size: 60px;
+    text-align: center;
+    text-decoration: underline;   
+    font-family: 'Koulen', cursive;
+    color: purple;
+}
+
+.head { /* we use the same skeleton code as the index */
+    background-image: url('../images/Shaders2.png');  
+    background-size: 1920px;
+}
+
+.subhedding {
+    color: blue;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+}
+
+ol,li {
+    margin-left: 20%;
+}

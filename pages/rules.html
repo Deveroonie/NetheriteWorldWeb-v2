@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Netherite World</title>
+        <link href="/images/Logo.png" rel="icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/rules.css" rel="stylesheet">
+        <link href="/css/all.css" rel="stylesheet">
+        <link href="/css/nav.css" rel="stylesheet">
+        <link href="/css/gamemodes.css" rel="stylesheet">
+        <!-- Pull in fonts we need for later use -->
+        <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body onload="lf()">
+        <!-- Pull in scripts we need for later use -->
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="/js/getAnnouncements.js"></script>
+        <script>
+            const ip2 = "play.netherite.world"
+
+function lf() {
+    getAnnouncements()
+    //copy()
+}
+        </script>
+        <!-- / -->
+        <!-- Navbar -->
+        <div class="topnav">
+            <img src="/images/Logo.png" width="47px" height="47px" class="navimg">
+            <span class="navblank"></span>
+            <a href="/">Home</a>
+            <a href="https://www.netherite.world/bans">Bans</a>
+            <a href="rules" class="active">Rules</a>
+            <a href="#about">About</a>
+          </div>
+          <br><br>
+          <div class="header">
+             <div id="announcement" class="announcement alert"></div>
+             <div class="head">
+            <h1 class="headtxt">Netherite World Rules!</h1>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+            <br><br><br>
+             </div>
+             <div class="content">
+                <u><b><h4 class="subhedding">Network wide rules!</h4></u></b>
+                <br>
+                <ol>
+                    <li>No swearing.</li>
+                    <li>No scamming.</li>
+                    <li>Treat everyone with respect.</li>
+                    <li>English only in chat, please keep other languages in PMs.</li>
+                    <li>Staff have the final say.</li>
+                    <li>Keep your username and skin appropriate.</li>
+                    <li>No cheating/using cheat clients.</li>
+                    <li>No griefing other players builds.</li>
+                    <li>Do not cause lag to the server intentially. This includes lag machines, dropping thousands of items and more.</li>
+                    <li>Do not use bugs or exploits in the game to duplicate items or anything else involving exploits/bugs.</li>
+                    <li>Do not leak other players personal information without their consent.</li>
+                    <li>Advertising other servers or anything else is prohibited.</li>
+                    <li>You are not allowed to trade server items for real life (IRL) money.</li>
+                    <li>Do not threaten to DDoS/DoX/SWAT anyone on the server.</li>
+                    <li>Do not send spoilers to movies or anything else.</li>
+                    <li>Bypassing the chat filter is prohibited.</li>
+                    <li>Saying something to confuse other players is not allowed.</li>
+                    <li>You are not allowed to use another account to bypass a ban/mute.</li>
+                    <li>Be honest with staff. If you are caught lying to staff you will be banned.</li>
+                </ol>
+                <u><b><h4 class="subhedding">Discord Rules!</h4></u></b>
+                <ol>
+                    <li>You must be at least 13 years old to participate in this server.</li>
+                    <ul>
+                        <li>You must follow Discord's <a href="https://discord.com/terms">Terms Of Service </a></li>
+                        <li>You must follow Discord's <a href="https://discord.com/guidelines">Community Guidelines</a></li>
+                    </ul>
+                    <li>You are not allowed to post NSFW content.</li>
+                    <li>You are not allowed to swear in chat.</li>
+                    <li>You must be respectful to other server members at all times.</li>
+                </ol>
+             </div>
+    <div class="footer">
+        <footer>
+            <p class="copyright">&copy 2022 Deveroonie</p> 
+            <div class="links">
+                <a href="https://discord.netherite.world"><i class="fab fa-discord"></i></a><a href="https://youtube.netherite.world"><i class="fab fa-youtube"></i></a>
+            </div>
+        </footer>
+    </div>
+    </body>
+</html>
